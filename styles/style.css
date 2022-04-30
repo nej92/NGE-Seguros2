@@ -190,7 +190,8 @@ html {
 }
 #seguros-conteiner {
   width: 100%;
-  height: 50em;
+  height: auto;
+  padding: 4em 0 4em 0;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
@@ -207,14 +208,16 @@ html {
   text-align: center;
   margin: 2em 0 2em 0;
 }
-.iconos-seguro {
-  width: auto; /*VER SI SE ROMPE*/
-  display: flex;
+#iconos-seguro {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-gap: 2em;
+  justify-content: center;
 }
 .iconos-seguros-img {
   width: 6em;
   height: 6em;
-  margin: 0.5em 0.5em 0.5em 0.5em;
 }
 /*ICONOS SEGUROS*/
 #moto{
@@ -670,7 +673,7 @@ html {
     font-size: 0.75rem;
   }
   #seguros-conteiner {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   #franja-destacado-conteiner {
     font-size: 0.9rem;
@@ -706,7 +709,7 @@ html {
     font-size: 0.7rem;
   }
   #seguros-conteiner {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   #cotiza100 {
     font-size: 0.7rem;
@@ -742,7 +745,7 @@ html {
     font-size: 0.5rem;
   }
   #seguros-conteiner {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
   #cotiza100 {
     font-size: 0.6rem;
@@ -814,13 +817,29 @@ html {
   #seguros-conteiner {
     font-size: 0.4rem;
   }
+  #iconos-seguro {
+    grid-template-columns: auto auto auto auto;
+  }
+  #contacto-container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  /*
   #foto-chicos {
     display: none;
   }
+  
   #foto-chica {
     display: block;
     height: 36em;
     width: 25em;
+  }
+  */
+  #foto-chicos{
+    margin-top: 2em;
   }
   #cotiza100 {
     font-size: 0.6rem;

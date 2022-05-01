@@ -825,29 +825,18 @@ html {
   }
   #contacto-container {
     font-size: 0.35rem;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2em;
-  }
-  #column1 {
-    margin-left: 0em;
+    overflow-x: hidden;
   }
   #foto-chicos{
-    padding-top: 2em;
-  }
-  /*
-  #foto-chicos {
     display: none;
-  }
-  
+    padding-top: 2em;
+  }  
   #foto-chica {
     display: block;
     height: 36em;
     width: 25em;
+    padding-top: 2em;
   }
-  */
   #logosEmpresas-conteiner{
     font-size: .6em;
   }

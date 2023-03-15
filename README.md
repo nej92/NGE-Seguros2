@@ -1,1 +1,1 @@
-# NGE-Seguros2
+https://nej92.github.io/NGE-Seguros2/
